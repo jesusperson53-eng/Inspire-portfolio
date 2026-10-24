@@ -1,0 +1,8 @@
+{
+  "name": "Remix Inspire Business Academy",
+  "description": "Student Records, Assignment Management, Learning Progress \u0026 Public Portfolio Platform",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

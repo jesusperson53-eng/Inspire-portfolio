@@ -1,0 +1,123 @@
+import { Course } from '../types/academy';
+
+/**
+ * Single source of truth for the 10 official courses of Inspire Business Academy.
+ * As per specification, no fake category, duration, price, description or images are invented.
+ * Database fields default to empty strings or standard empty collections until filled by administrators.
+ */
+export const OFFICIAL_COURSES: Course[] = [
+  {
+    id: 'computer-course',
+    code: 'CC-01',
+    title: 'Computer Course',
+    category: '',
+    duration: '',
+    description: '',
+    modules: [],
+    is_active: true,
+    cover_image: '',
+  },
+  {
+    id: 'ms-office-course',
+    code: 'MSO-02',
+    title: 'MS Office Course',
+    category: '',
+    duration: '',
+    description: '',
+    modules: [],
+    is_active: true,
+    cover_image: '',
+  },
+  {
+    id: 'graphic-design-photoshop',
+    code: 'GD-03',
+    title: 'Graphic Design (Photoshop)',
+    category: '',
+    duration: '',
+    description: '',
+    modules: [],
+    is_active: true,
+    cover_image: '',
+  },
+  {
+    id: 'capcut-video-editing',
+    code: 'CVE-04',
+    title: 'CapCut Video Editing',
+    category: '',
+    duration: '',
+    description: '',
+    modules: [],
+    is_active: true,
+    cover_image: '',
+  },
+  {
+    id: 'ai-tools-mastery',
+    code: 'ATM-05',
+    title: 'AI Tools Mastery',
+    category: '',
+    duration: '',
+    description: '',
+    modules: [],
+    is_active: true,
+    cover_image: '',
+  },
+  {
+    id: 'youtube-automation',
+    code: 'YTA-06',
+    title: 'YouTube Automation',
+    category: '',
+    duration: '',
+    description: '',
+    modules: [],
+    is_active: true,
+    cover_image: '',
+  },
+  {
+    id: 'app-dev-gemini',
+    code: 'ADG-07',
+    title: 'App Dev (Gemini 3.1 Pro)',
+    category: '',
+    duration: '',
+    description: '',
+    modules: [],
+    is_active: true,
+    cover_image: '',
+  },
+  {
+    id: 'facebook-mastery',
+    code: 'FBM-08',
+    title: 'Facebook Mastery',
+    category: '',
+    duration: '',
+    description: '',
+    modules: [],
+    is_active: true,
+    cover_image: '',
+  },
+  {
+    id: 'local-dropshipping',
+    code: 'LDS-09',
+    title: 'Local Dropshipping',
+    category: '',
+    duration: '',
+    description: '',
+    modules: [],
+    is_active: true,
+    cover_image: '',
+  },
+  {
+    id: 'organic-digital-marketing',
+    code: 'ODM-10',
+    title: 'Organic Digital Marketing',
+    category: '',
+    duration: '',
+    description: '',
+    modules: [],
+    is_active: true,
+    cover_image: '',
+  },
+];
+
+export const COURSE_TITLES = OFFICIAL_COURSES.map((c) => c.title);
+
+export const DEFAULT_COURSE_ID = 'computer-course';
